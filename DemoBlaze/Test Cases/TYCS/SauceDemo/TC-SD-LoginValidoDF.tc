@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-SD-LoginValidoDF</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1aa5e93b-2365-4509-a75d-3b36cada3d37</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>87853eb1-826b-4ef2-9d1e-0911cc4a9c15</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d400b689-d340-4981-be83-368d4efcb013</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d837b056-1302-4a28-b6e5-b780795d1f8b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>87853eb1-826b-4ef2-9d1e-0911cc4a9c15</id>
+      <masked>false</masked>
+      <name>USUARIO</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>d400b689-d340-4981-be83-368d4efcb013</id>
+      <masked>false</masked>
+      <name>PASSWORD</name>
+   </variable>
+   <variable>
+      <defaultValue>'Products'</defaultValue>
+      <description></description>
+      <id>d837b056-1302-4a28-b6e5-b780795d1f8b</id>
+      <masked>false</masked>
+      <name>MENSAJE</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-TP4" time="589.864" tests="20" failures="1" errors="0">
+   <testsuite name="TS-TP4" tests="20" failures="1" errors="0" time="589.864" skipped="0" timestamp="10-01-2024T18:48:38" hostname="leo - Leo" id="Test Suites/TYCS/TS-TP4">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\leo_k\\Katalon Studio\\SauceDemo\\Reports\\20240110_184830\\TYCS\\TS-TP4\\20240110_184831"/>
+         <property name="logFiles" value="C:\\Users\\leo_k\\Katalon Studio\\SauceDemo\\Reports\\20240110_184830\\TYCS\\TS-TP4\\20240110_184831\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leo - Leo"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Edge Chromium 120"/>
+         <property name="hostAddress" value="192.168.100.89"/>
+         <property name="sessionId" value="503308b854c4dc7606bc7804ea1021a4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginValido" time="12.038" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginValido" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:48:38 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginValido: Test Cases/TYCS/SauceDemo/TC-SD-LoginValido
+
+10-01-2024T18:48:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:48:39 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:48:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:48:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:48:42 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:48:44 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:48:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:48:45 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:48:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:48:46 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:48:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:48:47 - [TEST_STEP][PASSED] - verifyTextPresent("Products", false, CONTINUE_ON_FAILURE): Text 'Products' is present on page 
+
+10-01-2024T18:48:47 - [MESSAGE][PASSED] - Text 'Products' is present on page 
+
+10-01-2024T18:48:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-01-2024T18:48:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-01-2024T18:48:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:48:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginMsError" time="39.389" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginMsError" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:48:50 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginMsError: Test Cases/TYCS/SauceDemo/TC-SD-LoginMsError
+
+10-01-2024T18:48:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:48:51 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:48:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:48:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:48:53 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:48:54 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:48:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text 'holamundo' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:48:55 - [MESSAGE][PASSED] - Text 'holamundo' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:48:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:48:56 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:48:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:48:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:48:56 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:49:27 - [MESSAGE][PASSED] - Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:49:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-01-2024T18:49:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-01-2024T18:49:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:49:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginMsVacioUS" time="10.81" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginMsVacioUS" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:49:30 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginMsVacioUS: Test Cases/TYCS/SauceDemo/TC-SD-LoginMsVacioUS
+
+10-01-2024T18:49:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:49:30 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:49:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:49:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:49:32 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:49:34 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:49:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text '' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:49:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:49:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:49:36 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:49:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:49:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:49:37 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Epic sadface: Username is required' is present on page 
+
+10-01-2024T18:49:37 - [MESSAGE][PASSED] - Text 'Epic sadface: Username is required' is present on page 
+
+10-01-2024T18:49:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-01-2024T18:49:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-01-2024T18:49:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:49:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginMsVacioPW" time="10.18" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginMsVacioPW" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:49:41 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginMsVacioPW: Test Cases/TYCS/SauceDemo/TC-SD-LoginMsVacioPW
+
+10-01-2024T18:49:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:49:41 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:49:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:49:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:49:43 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:49:44 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:49:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:49:46 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:49:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text '' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:49:47 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:49:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:49:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:49:47 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Epic sadface: Password is required' is present on page 
+
+10-01-2024T18:49:47 - [MESSAGE][PASSED] - Text 'Epic sadface: Password is required' is present on page 
+
+10-01-2024T18:49:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-01-2024T18:49:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-01-2024T18:49:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:49:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF" time="10.259" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:49:51 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF: Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF
+
+10-01-2024T18:49:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:49:51 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:49:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:49:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:49:53 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:49:55 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:49:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:49:56 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:49:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:49:57 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:49:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:49:57 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Products' is present on page 
+
+10-01-2024T18:49:58 - [MESSAGE][PASSED] - Text 'Products' is present on page 
+
+10-01-2024T18:49:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-01-2024T18:50:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-01-2024T18:50:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:50:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF" time="39.696" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Text 'Products' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Products' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1746)&#xa;	at TC-SD-LoginMsError.run(TC-SD-LoginMsError:30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704923311338.run(TempTestSuite1704923311338.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1746)&#xa;	at TC-SD-LoginMsError.run(TC-SD-LoginMsError:30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704923311338.run(TempTestSuite1704923311338.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Products' is not present on page &#xa;	... 27 more&#xa;"/>
+         <system-out><![CDATA[10-01-2024T18:51:41 - [TEST_CASE][FAILED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF: Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Products' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Products' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1746)
+	at TC-SD-LoginMsError.run(TC-SD-LoginMsError:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704923311338.run(TempTestSuite1704923311338.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1746)
+	at TC-SD-LoginMsError.run(TC-SD-LoginMsError:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704923311338.run(TempTestSuite1704923311338.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Products' is not present on page 
+	... 27 more
+
+
+10-01-2024T18:51:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:51:41 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:51:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:51:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:51:43 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:51:44 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:51:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text 'locked_out_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:51:46 - [MESSAGE][PASSED] - Text 'locked_out_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:51:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:51:47 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:51:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:51:47 - [TEST_STEP][FAILED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Products' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Products' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1746)
+	at TC-SD-LoginMsError.run(TC-SD-LoginMsError:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704923311338.run(TempTestSuite1704923311338.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+10-01-2024T18:52:17 - [MESSAGE][FAILED] - Text 'Products' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Products' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1746)
+	at TC-SD-LoginMsError.run(TC-SD-LoginMsError:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704923311338.run(TempTestSuite1704923311338.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+10-01-2024T18:52:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-01-2024T18:52:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-01-2024T18:52:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:52:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[10-01-2024T18:51:41 - [TEST_CASE][FAILED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF: Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Products' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Products' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1746)
+	at TC-SD-LoginMsError.run(TC-SD-LoginMsError:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704923311338.run(TempTestSuite1704923311338.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1746)
+	at TC-SD-LoginMsError.run(TC-SD-LoginMsError:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704923311338.run(TempTestSuite1704923311338.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Products' is not present on page 
+	... 27 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF" time="9.834" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:52:20 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF: Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF
+
+10-01-2024T18:52:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:52:21 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:52:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:52:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:52:23 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:52:24 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:52:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text 'problem_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:52:25 - [MESSAGE][PASSED] - Text 'problem_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:52:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:52:26 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:52:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:52:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:52:27 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Products' is present on page 
+
+10-01-2024T18:52:27 - [MESSAGE][PASSED] - Text 'Products' is present on page 
+
+10-01-2024T18:52:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-01-2024T18:52:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-01-2024T18:52:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:52:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF" time="14.763" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:52:30 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF: Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF
+
+10-01-2024T18:52:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:52:30 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:52:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:52:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:52:33 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:52:34 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:52:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text 'performance_glitch_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:52:35 - [MESSAGE][PASSED] - Text 'performance_glitch_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:52:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:52:36 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:52:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:52:41 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Products' is present on page 
+
+10-01-2024T18:52:42 - [MESSAGE][PASSED] - Text 'Products' is present on page 
+
+10-01-2024T18:52:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-01-2024T18:52:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-01-2024T18:52:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:52:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF" time="10.267" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:52:45 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF: Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF
+
+10-01-2024T18:52:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:52:45 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:52:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:52:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:52:48 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:52:49 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:52:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text 'error_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:52:51 - [MESSAGE][PASSED] - Text 'error_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:52:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:52:51 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:52:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:52:52 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Products' is present on page 
+
+10-01-2024T18:52:52 - [MESSAGE][PASSED] - Text 'Products' is present on page 
+
+10-01-2024T18:52:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-01-2024T18:52:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-01-2024T18:52:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:52:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF" time="10.507" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:52:55 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF: Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF
+
+10-01-2024T18:52:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:52:56 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:52:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:52:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:52:58 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:52:59 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:52:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text 'visual_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:53:01 - [MESSAGE][PASSED] - Text 'visual_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:53:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:53:02 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:53:02 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Products' is present on page 
+
+10-01-2024T18:53:03 - [MESSAGE][PASSED] - Text 'Products' is present on page 
+
+10-01-2024T18:53:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-01-2024T18:53:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-01-2024T18:53:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:53:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" time="35.724" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:53:06 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF: Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF
+
+10-01-2024T18:53:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:53:06 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:53:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:53:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:53:09 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:53:10 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:53:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text 'holasoyyo' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:53:11 - [MESSAGE][PASSED] - Text 'holasoyyo' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:53:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:53:12 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:53:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:53:12 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:53:36 - [MESSAGE][PASSED] - Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:53:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-01-2024T18:53:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-01-2024T18:53:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:53:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" time="11.985" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:53:42 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF: Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF
+
+10-01-2024T18:53:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:53:42 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:53:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:53:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:53:44 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:53:45 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:53:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:53:47 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:53:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text '' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:53:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:53:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:53:48 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Epic sadface: Password is required' is present on page 
+
+10-01-2024T18:53:48 - [MESSAGE][PASSED] - Text 'Epic sadface: Password is required' is present on page 
+
+10-01-2024T18:53:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-01-2024T18:53:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-01-2024T18:53:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:53:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" time="41.531" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:53:54 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF: Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF
+
+10-01-2024T18:53:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:53:54 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:53:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:53:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:53:56 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:53:57 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:53:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text 'hola123' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:53:59 - [MESSAGE][PASSED] - Text 'hola123' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:53:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:54:00 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:54:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:54:00 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:54:30 - [MESSAGE][PASSED] - Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:54:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-01-2024T18:54:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-01-2024T18:54:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:54:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" time="41.767" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:54:35 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF: Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF
+
+10-01-2024T18:54:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:54:35 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:54:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:54:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:54:38 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:54:39 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:54:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:54:41 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:54:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text 'jojo2123' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:54:42 - [MESSAGE][PASSED] - Text 'jojo2123' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:54:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:54:42 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:55:12 - [MESSAGE][PASSED] - Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:55:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-01-2024T18:55:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-01-2024T18:55:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:55:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" time="12.117" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:55:17 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF: Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF
+
+10-01-2024T18:55:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:55:17 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:55:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:55:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:55:20 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:55:21 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:55:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text '' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:55:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:55:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:55:23 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:55:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:55:24 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Epic sadface: Username is required' is present on page 
+
+10-01-2024T18:55:24 - [MESSAGE][PASSED] - Text 'Epic sadface: Username is required' is present on page 
+
+10-01-2024T18:55:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-01-2024T18:55:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-01-2024T18:55:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:55:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" time="41.264" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:55:29 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF: Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF
+
+10-01-2024T18:55:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:55:29 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:55:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:55:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:55:32 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:55:33 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:55:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text '16546456' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:55:34 - [MESSAGE][PASSED] - Text '16546456' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:55:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:55:35 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:55:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:55:35 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:56:05 - [MESSAGE][PASSED] - Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:56:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-01-2024T18:56:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-01-2024T18:56:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:56:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" time="41.503" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:56:11 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF: Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF
+
+10-01-2024T18:56:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:56:11 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:56:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:56:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:56:14 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:56:14 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:56:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:56:16 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:56:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text 'hola' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:56:17 - [MESSAGE][PASSED] - Text 'hola' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:56:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:56:17 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:56:47 - [MESSAGE][PASSED] - Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:56:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-01-2024T18:56:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-01-2024T18:56:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:56:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" time="42.261" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:56:52 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF: Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF
+
+10-01-2024T18:56:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:56:52 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:56:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:56:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:56:55 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:56:57 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:56:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:56:58 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:56:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text '156498' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:56:59 - [MESSAGE][PASSED] - Text '156498' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:56:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:56:59 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:57:29 - [MESSAGE][PASSED] - Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:57:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-01-2024T18:57:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-01-2024T18:57:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:57:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" time="35.234" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:57:35 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF: Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF
+
+10-01-2024T18:57:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:57:35 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:57:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:57:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:57:37 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:57:38 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:57:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text 'Standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:57:40 - [MESSAGE][PASSED] - Text 'Standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:57:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:57:41 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:57:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:57:41 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:58:05 - [MESSAGE][PASSED] - Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:58:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-01-2024T18:58:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-01-2024T18:58:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:58:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" time="17.981" classname="Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF" status="PASSED">
+         <system-out><![CDATA[10-01-2024T18:58:10 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF: Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF
+
+10-01-2024T18:58:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T18:58:10 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+10-01-2024T18:58:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T18:58:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T18:58:13 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:58:14 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+10-01-2024T18:58:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_user-name"), USUARIO): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:58:16 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_user-name'
+
+10-01-2024T18:58:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_password"), PASSWORD): Text 'sEcret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:58:17 - [MESSAGE][PASSED] - Text 'sEcret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_password'
+
+10-01-2024T18:58:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_login-button")): Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_login-button' is clicked on
+
+10-01-2024T18:58:17 - [TEST_STEP][PASSED] - verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE): Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:58:23 - [MESSAGE][PASSED] - Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+10-01-2024T18:58:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-01-2024T18:58:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-01-2024T18:58:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T18:58:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-01-2024T18:48:38 - [TEST_SUITE][FAILED] - TS-TP4: Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Products' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Products' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1746)
+	at TC-SD-LoginMsError.run(TC-SD-LoginMsError:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704923311338.run(TempTestSuite1704923311338.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1746)
+	at TC-SD-LoginMsError.run(TC-SD-LoginMsError:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704923311338.run(TempTestSuite1704923311338.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Products' is not present on page 
+	... 24 more]]></system-out>
+      <system-err><![CDATA[10-01-2024T18:48:38 - [TEST_SUITE][FAILED] - TS-TP4: Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Products' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Products' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1746)
+	at TC-SD-LoginMsError.run(TC-SD-LoginMsError:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704923311338.run(TempTestSuite1704923311338.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1746)
+	at TC-SD-LoginMsError.run(TC-SD-LoginMsError:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704923311338.run(TempTestSuite1704923311338.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Products' is not present on page 
+	... 24 more]]></system-err>
+   </testsuite>
+</testsuites>

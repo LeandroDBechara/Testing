@@ -1,0 +1,202 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-TP4,Edge Chromium 120,,,10-01-2024 18:48:38,10-01-2024 18:58:28,"9m - 49,864s",FAILED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginValido,Edge Chromium 120,,,10-01-2024 18:48:38,10-01-2024 18:48:50,"12,038s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:48:39,10-01-2024 18:48:42,"3,390s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:48:42,10-01-2024 18:48:44,"1,441s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:48:44,10-01-2024 18:48:45,"1,580s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:48:45,10-01-2024 18:48:46,"0,724s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:48:46,10-01-2024 18:48:47,"0,552s",PASSED
+"verifyTextPresent(""Products"", false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:48:47,10-01-2024 18:48:47,"0,474s",PASSED
+delay(3),Edge Chromium 120,,,10-01-2024 18:48:47,10-01-2024 18:48:50,"3,059s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:48:50,10-01-2024 18:48:50,"0,308s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginMsError,Edge Chromium 120,,,10-01-2024 18:48:50,10-01-2024 18:49:30,"39,389s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:48:51,10-01-2024 18:48:53,"2,483s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:48:53,10-01-2024 18:48:54,"0,546s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:48:54,10-01-2024 18:48:55,"1,726s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:48:55,10-01-2024 18:48:56,"0,651s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:48:56,10-01-2024 18:48:56,"0,373s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:48:56,10-01-2024 18:49:27,"30,072s",PASSED
+delay(3),Edge Chromium 120,,,10-01-2024 18:49:27,10-01-2024 18:49:30,"3,016s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:49:30,10-01-2024 18:49:30,"0,233s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginMsVacioUS,Edge Chromium 120,,,10-01-2024 18:49:30,10-01-2024 18:49:41,"10,810s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:49:30,10-01-2024 18:49:32,"2,480s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:49:32,10-01-2024 18:49:34,"1,643s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:49:34,10-01-2024 18:49:36,"1,728s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:49:36,10-01-2024 18:49:36,"0,637s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:49:36,10-01-2024 18:49:37,"0,333s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:49:37,10-01-2024 18:49:37,"0,550s",PASSED
+delay(3),Edge Chromium 120,,,10-01-2024 18:49:37,10-01-2024 18:49:40,"3,017s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:49:40,10-01-2024 18:49:41,"0,313s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginMsVacioPW,Edge Chromium 120,,,10-01-2024 18:49:41,10-01-2024 18:49:51,"10,180s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:49:41,10-01-2024 18:49:43,"2,467s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:49:43,10-01-2024 18:49:44,"1,044s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:49:44,10-01-2024 18:49:46,"1,734s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:49:46,10-01-2024 18:49:47,"0,649s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:49:47,10-01-2024 18:49:47,"0,395s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:49:47,10-01-2024 18:49:47,"0,507s",PASSED
+delay(3),Edge Chromium 120,,,10-01-2024 18:49:47,10-01-2024 18:49:51,"3,004s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:49:51,10-01-2024 18:49:51,"0,268s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF,Edge Chromium 120,,,10-01-2024 18:49:51,10-01-2024 18:50:01,"10,259s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:49:51,10-01-2024 18:49:53,"2,428s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:49:53,10-01-2024 18:49:55,"1,232s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:49:55,10-01-2024 18:49:56,"1,654s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:49:56,10-01-2024 18:49:57,"0,726s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:49:57,10-01-2024 18:49:57,"0,411s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:49:57,10-01-2024 18:49:58,"0,461s",PASSED
+delay(3),Edge Chromium 120,,,10-01-2024 18:49:58,10-01-2024 18:50:01,"3,012s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:50:01,10-01-2024 18:50:01,"0,282s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF,Edge Chromium 120,,,10-01-2024 18:51:41,10-01-2024 18:52:20,"39,696s",FAILED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:51:41,10-01-2024 18:51:43,"2,536s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:51:43,10-01-2024 18:51:44,"0,967s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:51:44,10-01-2024 18:51:46,"1,707s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:51:46,10-01-2024 18:51:47,"0,740s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:51:47,10-01-2024 18:51:47,"0,353s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:51:47,10-01-2024 18:52:17,"30,058s",FAILED
+delay(3),Edge Chromium 120,,,10-01-2024 18:52:17,10-01-2024 18:52:20,"3,007s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:52:20,10-01-2024 18:52:20,"0,283s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF,Edge Chromium 120,,,10-01-2024 18:52:20,10-01-2024 18:52:30,"9,834s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:52:21,10-01-2024 18:52:23,"2,545s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:52:23,10-01-2024 18:52:24,"0,608s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:52:24,10-01-2024 18:52:25,"1,736s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:52:25,10-01-2024 18:52:26,"0,694s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:52:26,10-01-2024 18:52:27,"0,459s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:52:27,10-01-2024 18:52:27,"0,422s",PASSED
+delay(3),Edge Chromium 120,,,10-01-2024 18:52:27,10-01-2024 18:52:30,"3,012s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:52:30,10-01-2024 18:52:30,"0,300s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF,Edge Chromium 120,,,10-01-2024 18:52:30,10-01-2024 18:52:45,"14,763s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:52:30,10-01-2024 18:52:33,"2,463s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:52:33,10-01-2024 18:52:34,"0,858s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:52:34,10-01-2024 18:52:35,"1,635s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:52:35,10-01-2024 18:52:36,"0,683s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:52:36,10-01-2024 18:52:41,"5,377s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:52:41,10-01-2024 18:52:42,"0,404s",PASSED
+delay(3),Edge Chromium 120,,,10-01-2024 18:52:42,10-01-2024 18:52:45,"3,006s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:52:45,10-01-2024 18:52:45,"0,280s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF,Edge Chromium 120,,,10-01-2024 18:52:45,10-01-2024 18:52:55,"10,267s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:52:45,10-01-2024 18:52:48,"2,548s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:52:48,10-01-2024 18:52:49,"0,984s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:52:49,10-01-2024 18:52:51,"1,933s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:52:51,10-01-2024 18:52:51,"0,644s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:52:51,10-01-2024 18:52:52,"0,392s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:52:52,10-01-2024 18:52:52,"0,420s",PASSED
+delay(3),Edge Chromium 120,,,10-01-2024 18:52:52,10-01-2024 18:52:55,"3,004s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:52:55,10-01-2024 18:52:55,"0,296s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginValidoDF,Edge Chromium 120,,,10-01-2024 18:52:55,10-01-2024 18:53:06,"10,507s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:52:56,10-01-2024 18:52:58,"2,529s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:52:58,10-01-2024 18:52:59,"1,276s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:52:59,10-01-2024 18:53:01,"1,840s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:53:01,10-01-2024 18:53:02,"0,676s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:53:02,10-01-2024 18:53:02,"0,380s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:53:02,10-01-2024 18:53:03,"0,445s",PASSED
+delay(3),Edge Chromium 120,,,10-01-2024 18:53:03,10-01-2024 18:53:06,"3,014s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:53:06,10-01-2024 18:53:06,"0,295s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF,Edge Chromium 120,,,10-01-2024 18:53:06,10-01-2024 18:53:42,"35,724s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:53:06,10-01-2024 18:53:09,"2,437s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:53:09,10-01-2024 18:53:10,"1,262s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:53:10,10-01-2024 18:53:11,"1,510s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:53:11,10-01-2024 18:53:12,"0,647s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:53:12,10-01-2024 18:53:12,"0,344s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:53:12,10-01-2024 18:53:36,"24,147s",PASSED
+delay(5),Edge Chromium 120,,,10-01-2024 18:53:36,10-01-2024 18:53:42,"5,017s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:53:42,10-01-2024 18:53:42,"0,232s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF,Edge Chromium 120,,,10-01-2024 18:53:42,10-01-2024 18:53:54,"11,985s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:53:42,10-01-2024 18:53:44,"2,494s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:53:44,10-01-2024 18:53:45,"0,954s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:53:45,10-01-2024 18:53:47,"1,625s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:53:47,10-01-2024 18:53:48,"0,660s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:53:48,10-01-2024 18:53:48,"0,405s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:53:48,10-01-2024 18:53:48,"0,523s",PASSED
+delay(5),Edge Chromium 120,,,10-01-2024 18:53:48,10-01-2024 18:53:53,"5,005s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:53:53,10-01-2024 18:53:54,"0,296s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF,Edge Chromium 120,,,10-01-2024 18:53:54,10-01-2024 18:54:35,"41,531s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:53:54,10-01-2024 18:53:56,"2,517s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:53:56,10-01-2024 18:53:57,"1,010s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:53:57,10-01-2024 18:53:59,"1,622s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:53:59,10-01-2024 18:54:00,"0,693s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:54:00,10-01-2024 18:54:00,"0,339s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:54:00,10-01-2024 18:54:30,"30,053s",PASSED
+delay(5),Edge Chromium 120,,,10-01-2024 18:54:30,10-01-2024 18:54:35,"5,006s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:54:35,10-01-2024 18:54:35,"0,248s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF,Edge Chromium 120,,,10-01-2024 18:54:35,10-01-2024 18:55:17,"41,767s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:54:35,10-01-2024 18:54:38,"2,548s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:54:38,10-01-2024 18:54:39,"1,340s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:54:39,10-01-2024 18:54:41,"1,510s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:54:41,10-01-2024 18:54:42,"0,690s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:54:42,10-01-2024 18:54:42,"0,346s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:54:42,10-01-2024 18:55:12,"30,048s",PASSED
+delay(5),Edge Chromium 120,,,10-01-2024 18:55:12,10-01-2024 18:55:17,"5,001s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:55:17,10-01-2024 18:55:17,"0,262s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF,Edge Chromium 120,,,10-01-2024 18:55:17,10-01-2024 18:55:29,"12,117s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:55:17,10-01-2024 18:55:20,"2,510s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:55:20,10-01-2024 18:55:21,"1,497s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:55:21,10-01-2024 18:55:23,"1,379s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:55:23,10-01-2024 18:55:23,"0,638s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:55:23,10-01-2024 18:55:24,"0,353s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:55:24,10-01-2024 18:55:24,"0,430s",PASSED
+delay(5),Edge Chromium 120,,,10-01-2024 18:55:24,10-01-2024 18:55:29,"5,014s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:55:29,10-01-2024 18:55:29,"0,265s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF,Edge Chromium 120,,,10-01-2024 18:55:29,10-01-2024 18:56:11,"41,264s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:55:29,10-01-2024 18:55:32,"2,460s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:55:32,10-01-2024 18:55:33,"0,833s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:55:33,10-01-2024 18:55:34,"1,605s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:55:34,10-01-2024 18:55:35,"0,657s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:55:35,10-01-2024 18:55:35,"0,370s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:55:35,10-01-2024 18:56:05,"30,057s",PASSED
+delay(5),Edge Chromium 120,,,10-01-2024 18:56:05,10-01-2024 18:56:10,"5,014s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:56:10,10-01-2024 18:56:11,"0,251s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF,Edge Chromium 120,,,10-01-2024 18:56:11,10-01-2024 18:56:52,"41,503s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:56:11,10-01-2024 18:56:14,"2,720s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:56:14,10-01-2024 18:56:14,"0,896s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:56:14,10-01-2024 18:56:16,"1,507s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:56:16,10-01-2024 18:56:17,"0,648s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:56:17,10-01-2024 18:56:17,"0,397s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:56:17,10-01-2024 18:56:47,"30,054s",PASSED
+delay(5),Edge Chromium 120,,,10-01-2024 18:56:47,10-01-2024 18:56:52,"5,011s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:56:52,10-01-2024 18:56:52,"0,249s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF,Edge Chromium 120,,,10-01-2024 18:56:52,10-01-2024 18:57:35,"42,261s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:56:52,10-01-2024 18:56:55,"2,537s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:56:55,10-01-2024 18:56:57,"1,717s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:56:57,10-01-2024 18:56:58,"1,628s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:56:58,10-01-2024 18:56:59,"0,614s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:56:59,10-01-2024 18:56:59,"0,411s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:56:59,10-01-2024 18:57:29,"30,053s",PASSED
+delay(5),Edge Chromium 120,,,10-01-2024 18:57:29,10-01-2024 18:57:34,"5,011s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:57:34,10-01-2024 18:57:35,"0,266s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF,Edge Chromium 120,,,10-01-2024 18:57:35,10-01-2024 18:58:10,"35,234s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:57:35,10-01-2024 18:57:37,"2,500s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:57:37,10-01-2024 18:57:38,"1,026s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:57:38,10-01-2024 18:57:40,"1,739s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:57:40,10-01-2024 18:57:41,"0,705s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:57:41,10-01-2024 18:57:41,"0,362s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:57:41,10-01-2024 18:58:05,"23,610s",PASSED
+delay(5),Edge Chromium 120,,,10-01-2024 18:58:05,10-01-2024 18:58:10,"5,014s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:58:10,10-01-2024 18:58:10,"0,251s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-LoginInvalidoDF,Edge Chromium 120,,,10-01-2024 18:58:10,10-01-2024 18:58:28,"17,981s",PASSED
+"openBrowser("""")",Edge Chromium 120,,,10-01-2024 18:58:10,10-01-2024 18:58:13,"2,499s",PASSED
+navigateToUrl(url),Edge Chromium 120,,,10-01-2024 18:58:13,10-01-2024 18:58:14,"1,754s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_user-name""), USUARIO)",Edge Chromium 120,,,10-01-2024 18:58:14,10-01-2024 18:58:16,"1,868s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_password""), PASSWORD)",Edge Chromium 120,,,10-01-2024 18:58:16,10-01-2024 18:58:17,"0,679s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_login-button""))",Edge Chromium 120,,,10-01-2024 18:58:17,10-01-2024 18:58:17,"0,348s",PASSED
+"verifyTextPresent(MENSAJE, false, CONTINUE_ON_FAILURE)",Edge Chromium 120,,,10-01-2024 18:58:17,10-01-2024 18:58:23,"5,553s",PASSED
+delay(5),Edge Chromium 120,,,10-01-2024 18:58:23,10-01-2024 18:58:28,"5,010s",PASSED
+closeBrowser(),Edge Chromium 120,,,10-01-2024 18:58:28,10-01-2024 18:58:28,"0,249s",PASSED
